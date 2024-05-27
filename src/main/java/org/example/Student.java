@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Student {
-    private static int nextId;
+    private static int nextId = 1;
     private String studentId;
     private String studentName;
     private Gender gender;

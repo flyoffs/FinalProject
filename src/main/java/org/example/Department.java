@@ -3,7 +3,7 @@ package org.example;
 import java.util.Objects;
 
 public class Department {
-    private static int nextId;
+    private static int nextId = 1;
     private String departmentId;
     private String departmentName;
 
