@@ -59,4 +59,60 @@ public class Assignment {
                 ", scores=" + scores +
                 '}';
     }
+
+    public static int getNextId() {
+        return nextId;
+    }
+
+    public String getAssignmentId() {
+        return assignmentId;
+    }
+
+    public String getAssignmentName() {
+        return assignmentName;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public int getMaxScore() {
+        return maxScore;
+    }
+
+    public double getAssignmentAverage() {
+        return assignmentAverage;
+    }
+
+    public ArrayList<Integer> getScores() {
+        return scores;
+    }
+
+    public static void setNextId(int nextId) {
+        Assignment.nextId = nextId;
+    }
+
+    public void setAssignmentId(String assignmentId) {
+        this.assignmentId = assignmentId;
+    }
+
+    public void setAssignmentName(String assignmentName) {
+        this.assignmentName = assignmentName;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void setMaxScore(int maxScore) {
+        this.maxScore = maxScore;
+    }
+
+    public void setAssignmentAverage(double assignmentAverage) {
+        this.assignmentAverage = assignmentAverage;
+    }
+
+    public void setScores(ArrayList<Integer> scores) {
+        this.scores = scores;
+    }
 }
